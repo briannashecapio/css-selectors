@@ -18,6 +18,36 @@ h1, h3 + p {
     font-weight: bold;
 }
 
+h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+}
+
+p > header {
+    font-size: 1.25rem;
+}
+
+.profile-pic {
+width: 150px;
+border-radius: 50%;
+}
+
+p:first-of-type {
+    border-bottom: 2px dashed #ccc;
+}
+
+h2 + p strong {
+    color: purple;
+}
+
+li {
+    color: purple;
+}
+
+div {
+    background-color: #ccc;
+}
+
 
 
 
